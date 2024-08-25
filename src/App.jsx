@@ -28,11 +28,11 @@ const editTodo = (index)=>{
 
   return (
     <>
-    <div className="max-w-3xl mx-auto text-center mt-8">
-  <h1 className="text-4xl text-center font-sans border-b-2  font-bold dark:text-slate-900 leading-tight mb-2 border-t-4 border-b-4 border-blue-400 py-4">
+    <div className="w-3/4 mx-auto text-center mt-8">
+  <h1 className="text-4xl text-center font-sans border-b-2  font-bold dark:text-slate-900 leading-tight mb-2 border-t-4 border-b-4 border-slate-700 py-4">
     Fancy Heading
   </h1>
-  <p className="text-lg text-slate-200 mb-8">Stay on top of your day with our intuitive to-do app.</p>
+  <p className="lg:text-lg md:text-lg sm:text-md text-slate-900 mb-8">Stay on top of your day with our intuitive to-do app.</p>
 </div>
     <div className="max-w-md m-auto mt-5">
     <div className="border-3 border-gray-300 border-t-2 m-3 mt-9 border-b-2 rounded-xl p-5 bg-slate-950">
@@ -44,7 +44,7 @@ const editTodo = (index)=>{
       <button className="text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-1">ADD</button>
   </div>
       </form>
-      <ul className="todo-list text-center border rounded-md  bg-slate-900">
+      <ul className="todo-list text-center border rounded-md mt-6 bg-slate-900">
     {  todo.map((item , index)=>{
       return (<div key={index}>
         <li className="text-gray-100 border-b pr-2 p-1 pl-2 border-slate-500 border-t m-3 flex justify-between rounded-lg">{item}<span><button onClick={()=>dltTodo(index)} className="text-red-500 me-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
