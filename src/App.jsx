@@ -30,9 +30,9 @@ const editTodo = (index)=>{
     <>
     <div className="w-3/4 mx-auto text-center mt-8">
   <h1 className="text-4xl text-center font-sans border-b-2  font-bold dark:text-slate-900 leading-tight mb-2 border-t-4 border-b-4 border-slate-700 py-4">
-    Fancy Heading
+    To-Do App
   </h1>
-  <p className="lg:text-lg md:text-lg sm:text-md text-slate-900 mb-8">Stay on top of your day with our intuitive to-do app.</p>
+  <p className="lg:text-lg md:text-lg sm:text-md text-slate-950 mb-8">Stay on top of your day with our intuitive to-do app.</p>
 </div>
     <div className="max-w-md m-auto mt-5">
     <div className="border-3 border-gray-300 border-t-2 m-3 mt-9 border-b-2 rounded-xl p-5 bg-slate-950">
